@@ -1,4 +1,4 @@
-# AutoencodersForUnsupervisedAnomalyDetection
+## AutoencodersForUnsupervisedAnomalyDetection
 The code behind my paper "Deep Autoeoncoding Models for Unsupervised Anomaly Detection in Brain MR Images"
 
 
@@ -18,7 +18,22 @@ The source code comprises my object-oriented Deep-Learning framework, developed 
 
 The dataset used for this work was a non-public, clinical brain MR dataset with both healthy subjects, and subjects with MS, and is therefore not provided. You are free to plug in your own dataset though, by simply taking a look at the class "Dataset.py". Of great importance is the implementation of the "next_batch(...)" method.
 
-# Training & Evaluation
+## Training & Evaluation
 
 1. pip install -r requirements.txt
 2. python main_*.py
+
+## Cite Us
+
+If you use some of the code in your work, please cite our paper:
+
+```
+@inproceedings{baur2017semi,
+  title={Semi-supervised deep learning for fully convolutional networks},
+  author={Baur, Christoph and Albarqouni, Shadi and Navab, Nassir},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={311--319},
+  year={2017},
+  organization={Springer}
+}
+```
