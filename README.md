@@ -28,12 +28,10 @@ The dataset used for this work was a non-public, clinical brain MR dataset with 
 If you use some of the code in your work, please cite our paper:
 
 ```
-@inproceedings{baur2017semi,
-  title={Semi-supervised deep learning for fully convolutional networks},
-  author={Baur, Christoph and Albarqouni, Shadi and Navab, Nassir},
-  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
-  pages={311--319},
-  year={2017},
-  organization={Springer}
+@article{baur2018deep,
+  title={Deep Autoencoding Models for Unsupervised Anomaly Segmentation in Brain MR Images},
+  author={Baur, Christoph and Wiestler, Benedikt and Albarqouni, Shadi and Navab, Nassir},
+  journal={arXiv preprint arXiv:1804.04488},
+  year={2018}
 }
 ```
